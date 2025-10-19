@@ -1,5 +1,5 @@
 # EAGLE/KiCad `.brd` Viewer — Programmer: Bob Paydar
-
+![Screenshot](https://github.com/bob-paydar/EAGLE-KiCad-.brd-Viewer/blob/main/Screenshot.png)
 A lightweight PCB board viewer written in pure Python with Tkinter. It parses **EAGLE `.brd`** and **KiCad `.kicad_pcb`** files and renders layers, pads/SMDs, vias, polygons, texts, components, and nets. Includes project save/load, search, measuring, and export to **SVG** (built‑in) and **PNG** (via Pillow).
 
 > **Note:** Altium binary `.PcbDoc` files are **not supported**. Export to a text format (e.g., IDF/ASCII) first if needed.
